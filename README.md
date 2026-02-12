@@ -1,67 +1,13 @@
-# Tech-Ascend
-FarmGPT
-Smart Farming, Simplified.
+> Why do I have a folder named ".expo" in my project?
 
-FarmGPT is a bilingual (English/Hindi) AI-powered mobile farming assistant designed to empower farmers with location-based insights, crop recommendations, and government scheme information.
+The ".expo" folder is created when an Expo project is started using "expo start" command.
 
-The application combines a React Native (Expo) frontend with an Express.js backend and PostgreSQL database to deliver scalable, real-world agricultural support.
-Features
-Language Selection:
-   Supports English and Hindi
-   Improves accessibility for a wider farming community
+> What do the files contain?
 
-Location Detection: 
-    Uses GPS to detect the farmer’s location 
-    Provides region-specific recommendations
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
 
-AI-Based Assistance:
-    Farmers can ask crop-related questions
-    Intelligent responses for better decision-making
+> Should I commit the ".expo" folder?
 
-Crop Recommendation:
-   Location-based crop suggestions
-   Helps farmers choose suitable crops
-
-Government Schemes:
-   Displays relevant agricultural schemes
-   Easy access to subsidies and benefits
-
-Crop Calendar:
-   Guides sowing and harvesting timelines
-   Seasonal planning support
-
-Farmer Community:
-   Platform for farmers to connect and share knowledge
-
-Helpline Support:
-   Dedicated helpline number available in the footer
-   Ensures support when needed
-
-
-Tech Stack:
-   Frontend
-   React Native
-   Expo Framework
-   Expo Router
-   Expo Location API
-
-Backend
-   Express.js
-   Node.js
-
-Database
-   PostgreSQL
-   Drizzle ORM
-   Other Tools
-   React Query (API State Management)
-   Zod (Validation)
-   Patch-Package (Custom dependency fixes)
-
-FarmGPT aims to bridge the gap between technology and agriculture by delivering accessible, location-based, and AI-powered solutions directly to farmers. Our goal is to promote smarter farming, informed decisions, and better agricultural outcomes through digital empowerment.
-
-Future Scope:
-   Real-time weather integration
-   Multilingual expansion
-   Advanced AI crop prediction models
-   Government API integration
-   Offline support mode
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
